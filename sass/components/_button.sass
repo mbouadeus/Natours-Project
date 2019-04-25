@@ -1,0 +1,78 @@
+.btn
+  &,
+  &:link,
+  &:visited  /* Want the link to look the same before and after clicking */
+      text-transform: uppercase
+      text-decoration: none
+      padding: 1.5rem 4rem
+      display: inline-block
+      border-radius: 10rem /* Just use really high number, percent doesn't work */
+      transition: all .2s /* Applies trans  to all state except hover and active because already specified below */
+      position: relative
+      font-size: $default-font-size
+
+      //Change for the <button> element
+      border: none
+      cursor: pointer
+
+  &:hover
+    transform: translateY(-.3rem)
+    box-shadow: 0 1rem 2rem $color-box-shadow /* input: horiz shift, vert shift, blur, color */
+
+    &::after  /* Properties after button has been hovered on */
+      transform: scaleX(1.4) scaleY(1.6)
+      opacity: 0
+
+  &:active
+    transform: translateY(-.1rem)
+    box-shadow: 0 .5rem 1rem $color-box-shadow
+
+  &--white
+    background-color: $color-white
+    color: $color-grey-dark-1
+
+    &::after
+      background-color: $color-white
+
+  &--green
+    background-color: $color-primary
+    color: $color-white
+
+    &::after
+      background-color: $color-primary
+
+  &::after
+    content: "" /* Doesn't matter what in here */
+    display: inline-block
+    height: 100%
+    width: 100%
+    border-radius: 10rem
+    position: absolute /* Setting abs. position from element relative to which is .btn because it's position is set to relative */
+    top: 0
+    left: 0
+    z-index: -1 /* Puts it to the very back of element */
+    transition: all .4s
+
+  &--animated
+    animation: moveInBottom .5s ease-out .75s /* animation props: name, time, time-function, delay */
+    animation-fill-mode: backwards /* Applies styles of 0% animation before animation starts */
+
+.btn-text
+  &:link, &:visited
+    font-size: $default-font-size
+    color: $color-primary
+    display: inline-block
+    text-decoration: none
+    border-bottom: .1rem solid $color-primary
+    padding: .3rem
+    transition: all .2s
+
+  &:hover
+    background-color: $color-primary
+    color: $color-white
+    box-shadow: 0 .5rem 2rem rgba($color-black, .3)
+    transform: translateY(-.2rem)
+
+  &:active
+    box-shadow: 0 .2rem 2rem $color-box-shadow
+    transform: translateY(0)

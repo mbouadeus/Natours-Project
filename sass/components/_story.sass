@@ -1,0 +1,50 @@
+.story
+  width: 75%
+  margin: 0 auto
+  box-shadow: 0 3rem 6rem rgba($color-black, .1)
+  background-color: rgba($color-white, .6)
+  border-radius: $border-radius
+  padding: 6rem
+  margin-bottom: 3rem
+  font-size: $default-font-size
+  transform: skewX(-12deg)
+
+  &__shape
+    margin: 0
+    width: 15rem
+    height: 15rem
+    float: left
+    -webkit-shape-outside: circle(50% at 50% 50%)
+    shape-outside: circle(50% at 50% 50%) // Circle: radius(50%) at origin(50%, 50%). Element must be floated with defined dimensions
+    clip-path: circle(50% at 50% 50%)
+    transform: translateX(-3rem) skewX(12deg) //Best for moving floated elements
+    position: relative
+
+  &__img
+    height: 100% //Height because its smaller
+    transform: translateX(-4rem) scale(1.4)
+    transition: all .5s
+
+  &__text
+    transform: skewX(12deg)
+
+  &__caption
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, 20%)
+    text-transform: uppercase
+    font-size: 1.7rem
+    font-weight: 600
+    color: $color-white
+    text-align: center
+    opacity: 0
+    transition: all .5s
+
+  &:hover &__caption
+    opacity: 1
+    transform: translate(-50%, -50%) //Must be the same translate format as before
+
+  &:hover &__img
+    transform: translateX(-4rem) scale(1)
+    filter: blur(.3rem) brightness(80%)

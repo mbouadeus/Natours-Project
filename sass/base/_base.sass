@@ -1,0 +1,15 @@
+*,
+*::after, /* Give behavior to all elements before and after */
+*::before
+  margin: 0
+  padding: 0
+  box-sizing: inherit /* Set box-sizing property to be inheritable */
+
+
+html /* Root */
+  font-size: 62.5% /* 1rem = 10px, Really easy common technique */
+/* Change to % for accessibility 62.5% of default browser font from user */
+
+
+body
+  box-sizing: border-box /* (Inherited by all children) makes box dimension take to account padding and border Ex: width = total width excluding margins */

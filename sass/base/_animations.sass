@@ -1,0 +1,34 @@
+@keyframes moveInLeft  /* Specify direction of motion */
+  0%  /* Percentile of time specified */
+    opacity: 0
+    transform: translateX(-10rem) /* motion is from -X to X to 0 ( 0 is the origin) */
+
+  80%
+    transform: translateX(1rem)
+
+  100%
+    opacity: 1
+    transform: translate(0) /* Back to origin */
+
+
+@keyframes moveInRight
+  0%
+    opacity: 0
+    transform: translateX(10rem)
+
+  80%
+    transform: translateX(-1rem)
+
+  100%
+    opacity: 1
+    transform: translate(0) /* Back to origin */
+
+
+@keyframes moveInBottom
+  0%
+    opacity: 0
+    transform: translateY(3rem) /* Down 100px to start */
+
+  100%
+    opacity: 1
+    transform: translate(0) /* Back to origin */

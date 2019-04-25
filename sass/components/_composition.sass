@@ -1,0 +1,32 @@
+.composition
+  position: relative
+
+  &__photo
+    width: 55% //Flexible web design images
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .4)
+    border-radius: .2rem
+    position: absolute //Parent container must have position set
+    z-index: 0
+    transition: all .2s
+    outline-offset: 2rem //Applies padding between outline and element
+
+    &--p1
+      left: 0
+      top: -2rem
+
+    &--p2
+      right: 0
+      top: 2rem
+
+    &--p3
+      top: 10rem
+      left: 20%
+
+    &:hover
+      outline: 1.5rem solid $color-primary //Very similar to border
+      transform: scale(1.05) translateY(-.5rem)
+      box-shadow: 0 2.5rem 4rem rgba($color-black, .5)
+      z-index: 1
+
+  &:hover &__photo:not(:hover) //Composition hovered and composition photos not hovered selected
+    transform: scale(.95)

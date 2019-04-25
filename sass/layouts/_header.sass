@@ -1,0 +1,25 @@
+.header
+  height: 95vh /* 95 percent of viewport height */
+  background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8), rgba($color-primary-dark,0.8)), url(../../img/hero.jpg)
+  /* Gradient going towards right bottom from one color to another */
+  /* Gradient in front image */
+  background-size: cover /* try to fit image inside the element */
+  background-position: top /* keeps top of image uncroped when changing block size */
+
+  position: relative
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
+
+  &__logo-box
+    position: absolute
+    top: 4rem
+    left: 4rem
+
+  &__logo
+    height: 3.5rem /* Change both width and height */
+
+  &__text-box
+    position: absolute
+    top: 40%
+    left: 50%
+    transform: translate(-50%, -50%) /* In relation to the element itself */
+    text-align: center /* Align text to center */
