@@ -23,6 +23,10 @@
     &:focus:invalid
       border-bottom: .3rem solid $color-secondary-dark
 
+    &:-moz-ui-invalid:not(output)
+      box-shadow: none // Remove red shadow for no input on required field
+
+
     &::-webkit-input-placeholder
       color: $color-grey-dark-2 //Styling input placeholders
 
@@ -81,6 +85,8 @@
 
   &__button-arrow
     font-size: 3rem
-
     position: absolute
-    top: .1rem
+    top: 0
+
+  &__button-space
+    padding-right: 6rem
