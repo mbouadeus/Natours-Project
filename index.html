@@ -13,6 +13,22 @@
   <title>Natours | Exciting tours for adventurous people</title>
 </head>
 <body>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle"/>
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon"></span>
+    </label>
+    <div class="navigation__background">&nbsp;</div> <!-- &nbsp - stands for wide space -->
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Natours</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Your Benefits</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Populat Tours</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+        <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+      </ul>
+    </nav>
+  </div>
   <header class="header">
     <div class="header__logo-box"> <!-- Wrap with div because img is inline element -->
       <img src="img/logo-white.png" alt="Logo" class="header__logo" />
@@ -328,6 +344,30 @@
       </div>
     </div>
   </footer>
+  <div class="popup">
+    <div class="popup__content">
+      <div class="popup__left">
+        <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+        <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+      </div>
+      <div class="popup__right">
+        <h2 class="heading-secondary">Start booking now</h2>
+        <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read to terms of services.</h3>
+        <p class="popup__text u-margin-bottom-medium">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Dui accumsan sit amet nulla facilisi morbi tempus iaculis. Magna eget est lorem ipsum dolor sit amet consectetur.
+          Placerat in egestas erat imperdiet sed euismod nisi porta lorem. Sagittis vitae et leo duis.
+          Tincidunt arcu non sodales neque sodales. Eget arcu dictum varius duis at. Sit amet tellus cras adipiscing enim eu.
+          Donec pretium vulputate sapien nec sagittis aliquam. Nisl nunc mi ipsum faucibus vitae.Lacus laoreet non curabitur gravida arcu ac tortor dignissim convallis.
+          Eget dolor morbi non arcu risus quis varius. Netus et malesuada fames ac turpis egestas integer.
+          Sed egestas egestas fringilla phasellus faucibus scelerisque. Viverra accumsan in nisl nisi scelerisque eu ultrices.
+          Magna ac placerat vestibulum lectus mauris ultrices eros. Morbi tristique senectus et netus. Tempus iaculis urna id volutpat lacus laoreet non curabitur.
+          Sapien et ligula ullamcorper malesuada. Adipiscing diam donec adipiscing tristique risus. Ac tincidunt vitae semper quis lectus nulla. Viverra accumsan in nisl nisi.
+        </p>
+        <a href="#" class="btn btn--green">Book now</a>
+      </div>
+    </div>
+  </div>
 
 <!--<section class="grid-test">-->
 <!--<div class="row">-->

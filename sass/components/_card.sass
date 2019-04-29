@@ -102,10 +102,7 @@
           border-bottom: 1px solid $color-grey-light-2
 
   &__cta
-    position: absolute //Perfect centering
-    top: 50%  // Fifty percent of available space
-    left: 50%
-    transform: translate(-50%, -50%) // Fifty percent of card size
+    @include transformCenter //Perfect centering
     width: 90%
     text-align: center
 
