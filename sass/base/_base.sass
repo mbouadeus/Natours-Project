@@ -5,11 +5,22 @@
   padding: 0
   box-sizing: inherit /* Set box-sizing property to be inheritable */
 
+html
+  font-size: 62.5% /* 1rem = 10px, Really easy common technique. Change to % for accessibility 62.5% of default browser font from user. */
 
-html /* Root */
-  font-size: 62.5% /* 1rem = 10px, Really easy common technique */
-/* Change to % for accessibility 62.5% of default browser font from user */
+  @include respond(big-desk) // Greater than 1800px
+    font-size: 75% // 1rem = 12px, 12/16
 
+  @include respond(tab-land) // Less than 900px
+    font-size: 56.25% // 1rem = 9px, 9/16
+
+  @include respond(tab-port) // Less than 600px
+    font-size: 50%  // 1rem = 8px, 8/16
 
 body
   box-sizing: border-box /* (Inherited by all children) makes box dimension take to account padding and border Ex: width = total width excluding margins */
+  padding: 3rem
+
+  @include respond(tab-port)
+    padding: 0
+    margin: 0

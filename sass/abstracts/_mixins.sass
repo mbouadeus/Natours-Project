@@ -9,3 +9,28 @@
     top: 50%
     left: 50%
     transform: translate(-50%, -50%)
+
+// Media Query Manager
+/* 0 - 600px: Phones (phone) */
+/* 600 - 900px: Tablet portrait (tab-port) */
+/* 900 - 1200px: Tablet landscape (tab-land) */
+/* 1200 - 1800: Normal styles Desktops */
+/* 1800px+: Big Desktops (big-desk) */
+
+/* em are better for media queries */
+
+/* ORDER: Base + typography > general layout + grid > page layout > components */
+
+@mixin respond($breakpoint)
+  @if ($breakpoint == phone)
+    @media (max-width: 37.5em) /* 600 px */
+      @content
+  @else if ($breakpoint == tab-port)
+    @media (max-width: 56.25em) /* 900 px */
+      @content
+  @else if ($breakpoint == tab-land)
+    @media (max-width: 75em) /* 1200 px */
+      @content
+  @else if ($breakpoint == big-desk) // Anything between 1200px and 1800px is normal so nothing needs to be changed.
+    @media (min-width: 112.5em) /* 1800 px */
+      @content

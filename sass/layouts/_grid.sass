@@ -2,16 +2,33 @@
   max-width: $grid-width
   margin: 0 auto //To center block elements in other block elements
 
-  &:not(:last-child) //Everything except the last child
+  //Everything except the last child
+  &:not(:last-child)
     margin-bottom: $gutter-vert
 
+    @include respond(tab-port)
+      margin-bottom: $gutter-vert-sm
+
+  @include respond(tab-port)
+    max-width: 50rem
+    padding: 0 3rem
+
   @include clearfix
-  [class^="col-"] //Atribure selector for classes starting with col-
+
+  //Atribure selector for classes starting with col-
+  [class^="col-"]
     float: left
     min-height: 16rem
 
     &:not(:last-child)
       margin-right: $gutter-horiz
+
+      @include respond(tab-port)
+        margin-right: 0 // Remove gutter
+        margin-bottom: $gutter-vert-sm
+
+    @include respond(tab-port)
+      width: 100% !important // Take up entire width
 
   .col-1-of-2
     width: calc((100% - #{$gutter-horiz}) / 2) //Most wrap variables in #{} in calc function
