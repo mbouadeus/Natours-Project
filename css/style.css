@@ -924,11 +924,11 @@ body {
 
 .section-about {
   background-color: #f7f7f7;
-  padding: 20rem 0 20rem 0;
+  padding: 20rem 0 20rem;
   margin-top: -20vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 10rem 0 23rem 0;
+      padding: 12vh 0 23rem 0;
       margin-top: -30vh; } }
 
 .section-features {
