@@ -1,13 +1,19 @@
 .story
   width: 75%
-  margin: 0 auto
+  margin: 0 auto 3rem
   box-shadow: 0 3rem 6rem rgba($color-black, .1)
   background-color: rgba($color-white, .6)
   border-radius: $border-radius
   padding: 6rem
-  margin-bottom: 3rem
   font-size: $default-font-size
   transform: skewX(-12deg)
+
+  @include respond(tab-port)
+    padding-right: 3rem
+
+  @include respond(phone)
+    transform: skew(0)
+    padding: 4rem
 
   &__shape
     margin: 0
@@ -20,6 +26,10 @@
     transform: translateX(-3rem) skewX(12deg) //Best for moving floated elements
     position: relative
 
+    @include respond(phone)
+      transform: translateX(0) skew(0)
+      margin-right: 3rem
+
   &__img
     height: 100% //Height because its smaller
     transform: translateX(-4rem) scale(1.4)
@@ -27,6 +37,9 @@
 
   &__text
     transform: skewX(12deg)
+
+    @include respond(phone)
+      transform: skew(0)
 
   &__caption
     @include transformCenter

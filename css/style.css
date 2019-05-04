@@ -246,7 +246,7 @@ body {
   .card__side {
     height: 52rem;
     width: 100%;
-    transition: all .8s ease;
+    transition: transform .8s ease;
     position: absolute;
     top: 0;
     left: 0;
@@ -331,6 +331,35 @@ body {
     font-size: 6rem;
     font-weight: 300;
     margin: 0; }
+  @media (max-width: 56.25em) {
+    .card {
+      height: auto;
+      border-radius: 0.3rem;
+      background-color: white;
+      box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+      .card__side {
+        height: auto;
+        position: relative;
+        border-radius: 0;
+        box-shadow: none; }
+        .card__side--back {
+          transform: rotateY(0);
+          clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%); }
+      .card:hover .card__side--front {
+        transform: rotateY(0); }
+      .card__details {
+        padding: 1rem 3rem; }
+      .card__cta {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: translate(0);
+        width: auto;
+        padding: 7rem 4rem 4rem 4rem; }
+      .card__price-box {
+        margin-bottom: 3rem; }
+      .card__price-value {
+        font-size: 4rem; } }
 
 .composition {
   position: relative; }
@@ -407,6 +436,10 @@ body {
     transform: translateY(-1.5rem) scale(1.03);
     box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2); }
 
+@media (max-width: 56.25em) {
+  .form {
+    padding: 0 3rem; } }
+
 .form__group:not(:last-child) {
   margin-bottom: 2rem; }
 
@@ -422,6 +455,10 @@ body {
   width: 65%;
   display: block;
   transition: all 0.3s; }
+  @media (max-width: 56.25em) {
+    .form__input {
+      display: inline-block;
+      width: calc(100% - 4rem); } }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
@@ -449,6 +486,10 @@ body {
 .form__radio-group {
   width: 43%;
   display: inline-block; }
+  @media (max-width: 56.25em) {
+    .form__radio-group {
+      width: 100%;
+      margin-bottom: 2rem; } }
 
 .form__radio-input {
   display: none; }
@@ -495,14 +536,20 @@ body {
 
 .story {
   width: 75%;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 0.3rem;
   padding: 6rem;
-  margin-bottom: 3rem;
   font-size: 1.6rem;
   transform: skewX(-12deg); }
+  @media (max-width: 56.25em) {
+    .story {
+      padding-right: 3rem; } }
+  @media (max-width: 37.5em) {
+    .story {
+      transform: skew(0);
+      padding: 4rem; } }
   .story__shape {
     margin: 0;
     width: 15rem;
@@ -513,12 +560,19 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     position: relative; }
+    @media (max-width: 37.5em) {
+      .story__shape {
+        transform: translateX(0) skew(0);
+        margin-right: 3rem; } }
   .story__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
     transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
+    @media (max-width: 37.5em) {
+      .story__text {
+        transform: skew(0); } }
   .story__caption {
     position: absolute;
     top: 50%;
@@ -665,7 +719,7 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
   @media (max-width: 56.25em) {
     .header {
-      clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%); } }
+      clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 80%); } }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -874,7 +928,8 @@ body {
   margin-top: -20vh; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 23rem 0; } }
+      padding: 10rem 0 23rem 0;
+      margin-top: -30vh; } }
 
 .section-features {
   padding: 15rem 0;
@@ -913,8 +968,22 @@ body {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
   background-size: 100%;
   border-radius: 0.3rem;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
-  height: 55rem; }
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3); }
+  @media (max-width: 75em) {
+    .book {
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
+      background-size: cover; } }
+  @media (max-width: 56.25em) {
+    .book {
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg); } }
   .book__form {
     width: 50%;
     padding: 6rem; }
+    @media (max-width: 75em) {
+      .book__form {
+        width: 70%; } }
+    @media (max-width: 56.25em) {
+      .book__form {
+        width: 100%;
+        padding: 6rem 0 6rem;
+        text-align: center; } }
