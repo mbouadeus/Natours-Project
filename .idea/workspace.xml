@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db963c41-a715-4ccd-aacb-bf99249d02f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_card.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_form.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/components/_story.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/components/_story.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layouts/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layouts/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/pages/_home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/pages/_home.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/layouts/_navigation.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layouts/_navigation.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,26 +19,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-292">
+            <state relative-caret-position="6124">
               <caret line="282" column="32" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/pages/_home.sass">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/components/_form.sass">
+        <entry file="file://$PROJECT_DIR$/sass/layouts/_navigation.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="440">
+              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -67,7 +54,6 @@
         <option value="$PROJECT_DIR$/sass/components/_popup.sass" />
         <option value="$PROJECT_DIR$/sass/abstracts/_mixins.sass" />
         <option value="$PROJECT_DIR$/sass/base/_typography.sass" />
-        <option value="$PROJECT_DIR$/sass/layouts/_navigation.sass" />
         <option value="$PROJECT_DIR$/sass/components/_bg-video.sass" />
         <option value="$PROJECT_DIR$/sass/abstracts/_variables.sass" />
         <option value="$PROJECT_DIR$/sass/base/_base.sass" />
@@ -82,6 +68,7 @@
         <option value="$PROJECT_DIR$/sass/components/_story.sass" />
         <option value="$PROJECT_DIR$/sass/pages/_home.sass" />
         <option value="$PROJECT_DIR$/sass/components/_form.sass" />
+        <option value="$PROJECT_DIR$/sass/layouts/_navigation.sass" />
       </list>
     </option>
   </component>
@@ -198,18 +185,18 @@
       <workItem from="1556748061333" duration="5072000" />
       <workItem from="1556809525611" duration="11629000" />
       <workItem from="1556921458984" duration="6159000" />
-      <workItem from="1556979622482" duration="7745000" />
+      <workItem from="1556979622482" duration="8757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64313000" />
+    <option name="totallyTimeSpent" value="65325000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21454929" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21454929" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -222,7 +209,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.32821077" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" visible="true" weight="0.23819979" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -282,13 +269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layouts/_navigation.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/abstracts/_variables.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -334,13 +314,6 @@
     <entry file="file://$PROJECT_DIR$/img/nat-4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/layouts/_header.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/components/_card.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -369,24 +342,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/sass/components/_form.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="282" column="32" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="32" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/layouts/_header.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/pages/_home.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
+        <state relative-caret-position="453">
           <caret line="65" column="17" lean-forward="true" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/components/_form.sass">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="6124">
+          <caret line="282" column="32" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/layouts/_navigation.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
         </state>
       </provider>
     </entry>
