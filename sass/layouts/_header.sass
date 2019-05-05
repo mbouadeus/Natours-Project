@@ -1,8 +1,13 @@
 .header
   height: 95vh /* 95 percent of viewport height */
-  background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8), rgba($color-primary-dark,0.8)), url(../img/hero.jpg)
+  background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8), rgba($color-primary-dark,0.8)), url(../img/hero-small.jpg)
   /* Gradient going towards right bottom from one color to another */
   /* Gradient in front image */
+
+  // If (res 192dpi or greater and width 600px or greater) or width is 2000px or greater, use this image
+  @media (min-resolution: 192dpi) and (min-width: 600px), (min-width: 2000px)
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light,0.8), rgba($color-primary-dark,0.8)), url(../img/hero.jpg)
+
   background-size: cover /* try to fit image inside the element */
   background-position: top /* keeps top of image uncroped when changing block size */
 
