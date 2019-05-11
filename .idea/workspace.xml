@@ -22,32 +22,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-              <folding>
-                <element signature="e#743#749#1" expanded="true" />
-                <element signature="e#2970#2976#0" expanded="true" />
-                <element signature="e#5645#5651#0" expanded="true" />
-                <element signature="e#5651#5657#0" expanded="true" />
-                <element signature="e#6568#6576#0" expanded="true" />
-                <element signature="e#6961#6967#0" expanded="true" />
-                <element signature="e#6967#6973#0" expanded="true" />
-                <element signature="e#7889#7897#0" expanded="true" />
-                <element signature="e#8282#8288#0" expanded="true" />
-                <element signature="e#8288#8294#0" expanded="true" />
-                <element signature="e#9132#9140#0" expanded="true" />
-                <element signature="e#11729#11735#0" expanded="true" />
-                <element signature="e#13597#13603#1" expanded="true" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="92">
+              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -61,20 +46,9 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.prefix.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-24596" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -112,9 +86,9 @@
         <option value="$PROJECT_DIR$/sass/main.sass" />
         <option value="$PROJECT_DIR$/sass/components/_form.sass" />
         <option value="$PROJECT_DIR$/build/style.css" />
+        <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/build/index.html" />
       </list>
     </option>
   </component>
@@ -137,6 +111,16 @@
             <path>
               <item name="natours" type="b2602c69:ProjectViewProjectNode" />
               <item name="natours" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="natours" type="b2602c69:ProjectViewProjectNode" />
+              <item name="natours" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="natours" type="b2602c69:ProjectViewProjectNode" />
+              <item name="natours" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,12 +188,14 @@
       <workItem from="1557079347811" duration="2756000" />
       <workItem from="1557084902780" duration="1183000" />
       <workItem from="1557086531565" duration="6729000" />
-      <workItem from="1557093684089" duration="1057000" />
+      <workItem from="1557093684089" duration="1844000" />
+      <workItem from="1557275239644" duration="11000" />
+      <workItem from="1557535709507" duration="438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82068000" />
+    <option name="totallyTimeSpent" value="83304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -430,9 +416,11 @@
     <entry file="file://$PROJECT_DIR$/css/style.comp.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.prefix.css">
+    <entry file="file://$PROJECT_DIR$/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24596" />
+        <state relative-caret-position="161">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/style.css">
@@ -442,39 +430,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/css/style.prefix.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-          <folding>
-            <element signature="e#743#749#1" expanded="true" />
-            <element signature="e#2970#2976#0" expanded="true" />
-            <element signature="e#5645#5651#0" expanded="true" />
-            <element signature="e#5651#5657#0" expanded="true" />
-            <element signature="e#6568#6576#0" expanded="true" />
-            <element signature="e#6961#6967#0" expanded="true" />
-            <element signature="e#6967#6973#0" expanded="true" />
-            <element signature="e#7889#7897#0" expanded="true" />
-            <element signature="e#8282#8288#0" expanded="true" />
-            <element signature="e#8288#8294#0" expanded="true" />
-            <element signature="e#9132#9140#0" expanded="true" />
-            <element signature="e#11729#11735#0" expanded="true" />
-            <element signature="e#13597#13603#1" expanded="true" />
-          </folding>
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="92">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
